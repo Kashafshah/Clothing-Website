@@ -1,0 +1,232 @@
+table.text {
+        font-family: Arial, sans-serif; 		
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		color: #000000;
+		text-align: left
+		}
+
+tr.text {
+		font-family: Tahoma, Arial, Helvetica, san-serif; 
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		color: #404040;
+		}
+
+td.text {
+        font-family: Tahoma, Arial, Helvetica, san-serif; 
+		color: #404040;
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		}
+
+tr.redtext {
+        font-family: Tahoma, Arial, Helvetica, san-serif; 
+		color: #FF0000;
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		}
+
+td.redtext {
+        font-family: Tahoma, Arial, Helvetica, san-serif; 
+		color: #FF0000;
+		font-size: 13px; 
+		font-weight: Normal; 
+		text-decoration: none; 
+		}
+		
+td.caption {
+        font-family: Arial, sans-serif; 
+		color: black;
+		font-size: 15px; 
+		font-weight: Normal; 
+		text-decoration: none;
+		text-align: center;
+		}
+		
+a:link {
+		color: #1e1eb1;
+		text-decoration: none
+		}     /* unvisited link */
+		
+a:visited {
+		color: #1e1eb1;
+		text-decoration: none
+		}  /* visited link */
+		
+a:hover {
+		color: red;
+		text-decoration: underline
+		}   /* mouse over link */
+
+a:active {
+		color: #0000FF
+		}   /* selected link */
+
+.unique a:link, .unique a:visited, .unique a:hover, .unique a:active  {
+text-decoration: underline;
+}
+
+* {
+ font-family:verdana,sans-serif;
+ font-size :14pt;
+}
+title{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: black;
+  background-color: #DAA520;
+}
+html {
+  font-size: 70%;
+}
+img {
+ border :1px solid black;
+ margin-right :15px;
+ -moz-box-shadow :2px 2px 2px #888;
+ -webkit-box-shadow:2px 2px 2px #888;
+ box-shadow :2px 2px 2px #888;
+}
+
+ nav{
+  width: 84%;
+  margin: auto;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+ }
+ 
+ nav ul li a{
+     text-decoration: none;
+     color: #606163;
+ }
+ 
+ nav ul li a:hover{
+     color: #ff4321;
+ } 
+ 
+ 
+.username {
+ text-align :center;
+ background :#eb8;
+ color :#40d;
+ font-family:helvetica;
+ font-size :20pt;
+ padding :4px;
+}
+.info {
+ font-style :italic;
+ margin :40px 0px;
+ text-align :center;
+}
+.center {
+ text-align:center;
+}
+
+.subhead {
+ font-weight:bold;
+}
+.taken, .error {
+ color:red;
+}
+.available {
+ color:green;
+}
+.whisper {
+ font-style:italic;
+ color :#006600;
+}
+
+
+
+.form-submit-button {
+background: #0066A2;
+color: white;
+border-style: outset;
+border-color: #0066A2;
+height: 50px;
+width: 100px;
+font: bold15px arial,sans-serif;
+text-shadow: none;
+}
+
+html {
+ background:#fff
+}
+img {
+ border :1px solid black;
+ margin-right :15px;
+ -moz-box-shadow :2px 2px 2px #888;
+ -webkit-box-shadow:2px 2px 2px #888;
+ box-shadow :2px 2px 2px #888;
+}
+.username {
+ text-align :center;
+ background :#eb8;
+ color :#40d;
+ font-family:helvetica;
+ font-size :20pt;
+ padding :4px;
+}
+.info {
+ font-style :italic;
+ margin :40px 0px;
+ text-align :center;
+}
+.center {
+ text-align:center;
+}
+.subhead {
+ font-weight:bold;
+}
+.taken, .error {
+ color:red;
+}
+.available {
+ color:green;
+}
+.whisper {
+ font-style:italic;
+ color :#006600;
+}
+#logo {
+ font-family:Georgia;
+ font-weight:bold;
+ font-style :italic;
+ font-size :97px;
+ color :red;
+ }
+#robin {
+ position :relative;
+ border :0px;
+ margin-left :-6px;
+ margin-right :0px;
+ top :17px;
+ -moz-box-shadow :0px 0px 0px;
+ -webkit-box-shadow:0px 0px 0px;
+ box-shadow :0px 0px 0px;
+}
+#used {
+ margin-top:50px;
+}
+.content-wrapper {
+	width: 1050px;
+	margin: 0 auto;
+}
+
